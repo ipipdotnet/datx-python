@@ -1,13 +1,18 @@
 # coding=utf-8
 
+import io
 from setuptools import setup
+
+with io.open('README.md', 'rt', encoding='utf8') as f:
+    readme = f.read()
 
 setup(
     name='ipip-datx',
-    version=0.2,
+    version=0.3,
     description=(
         'IPIP.net官方支持维护的IP数据库datx格式解析代码库'
     ),
+    long_description=readme,
     author='IPIP.net',
     author_email='frk@ipip.net',
     maintainer='frk',
