@@ -1,6 +1,9 @@
 # Python解析datx格式的示例 
 
-说明 Python3.3+ 依赖 ipaddress
+## 安装说明
+<pre>
+<code>pip install ipip-datx</code>
+</pre>
 
 <pre><code>
 import datx
