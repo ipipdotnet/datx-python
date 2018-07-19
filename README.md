@@ -35,7 +35,7 @@ print(c.find("255.255.255.255"))
     "", // european_union
     "", // currency_code
     "", // currency_name
-    "ANYCAST"
+    "ANYCAST" // anycast
 ]
     </pre>
 
