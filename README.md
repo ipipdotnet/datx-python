@@ -13,28 +13,28 @@ print(c.find("255.255.255.255"))
   </pre></code>
 Output for IP 8.8.8.8 Results
     <pre><code>
-[
-    "GOOGLE.COM", // country_name
-    "GOOGLE.COM", // region_name
-    "",             // city_name
-    "google.com", // owner_domain
-    "level3.com", // isp_domain
-    "", // latitude
-    "", // longitude
-    "", // timezone
-    "", // utc_offset
-    "", // china_admin_code
-    "", // idd_code
-    "", // country_code
-    "", // continent_code
-    "IDC", // idc
-    "", // base_station
-    "", // country_code3
-    "", // european_union
-    "", // currency_code
-    "", // currency_name
-    "ANYCAST" // anycast
-]
+        [
+            "GOOGLE.COM", // country_name
+            "GOOGLE.COM", // region_name
+            "",             // city_name
+            "google.com", // owner_domain
+            "level3.com", // isp_domain
+            "", // latitude
+            "", // longitude
+            "", // timezone
+            "", // utc_offset
+            "", // china_admin_code
+            "", // idd_code
+            "", // country_code
+            "", // continent_code
+            "IDC", // idc
+            "", // base_station
+            "", // country_code3
+            "", // european_union
+            "", // currency_code
+            "", // currency_name
+            "ANYCAST" // anycast
+        ]
   </code>  </pre>
 
 <pre><code>
