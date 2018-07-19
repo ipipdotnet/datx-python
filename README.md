@@ -1,20 +1,18 @@
-# Python解析datx格式的示例 
+# Python Parse datx file 
 
-## 安装说明
+## Installing
 <pre>
 <code>pip install ipip-datx</code>
 </pre>
-## 代码示例
-<pre><code>
+## Code Example
+  <pre><code>
 import datx
-
-# 查询地级市精度的IP库
 c = datx.City("/path/to/mydata4vipday2.datx")
 print(c.find("8.8.8.258"))
 print(c.find("255.255.255.255"))
-
-#### Example
-    <pre>
+  </pre></code>
+Output for IP 8.8.8.8 Results
+    <pre><code>
 [
     "GOOGLE.COM", // country_name
     "GOOGLE.COM", // region_name
@@ -37,13 +35,14 @@ print(c.find("255.255.255.255"))
     "", // currency_name
     "ANYCAST" // anycast
 ]
-    </pre>
+  </code>  </pre>
 
-# 查询国内区县库
+<pre><code>
+# For China district datx file
 d = datx.District("/path/to/quxian.datx")
 print(d.find("123.121.117.72"))
 
-# 查询基站IP库
+# For China Base Station datx file
 d = datx.BaseStation("/path/to/station_ip.datx")
 print(d.find("223.221.121.0"))
 </code></pre>
